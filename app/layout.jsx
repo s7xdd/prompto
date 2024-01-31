@@ -1,4 +1,5 @@
 import '@styles/globals.css'
+import Nav from '@components/Nav'
 
 export const metadata = {
     title: "Prompto",
@@ -16,6 +17,7 @@ const RootLayout = ( {children} ) => {
             </div>
 
             <main className="app">
+                <Nav />
                 {children}
             </main>
 
